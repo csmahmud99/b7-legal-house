@@ -1,0 +1,47 @@
+/* 
+==========================================================
+Google Font Stylesheets Import : EB Garamond Regular 400
+==========================================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* 
+====================================
+Common Styles/Base Styles/Utilities 
+====================================
+*/
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+
+/* 
+====================================
+Header: Banner Section Styles
+====================================
+*/
+.leginfo-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    color: white;
+}
+
+.leginfo-colore-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+/* 
+====================================
+Main: Our Clients Section Styles
+====================================
+*/
+.leginfo-slider {
+    max-height: 50vh;
+}
